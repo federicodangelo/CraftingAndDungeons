@@ -1,0 +1,118 @@
+{
+	step: 5,
+	biomes: [
+		{ id:OceanCold, maxHeight:20, minTemperature:25, maxTemperature:50, floorId:floor-water, entities: [
+			{ entityId:rock-gray-water, chanceIn:400 },
+			{ entityId:rock-gray-water2, chanceIn:400 },
+		] },
+		
+		{ id:OceanWarm, maxHeight:20, minTemperature:50, maxTemperature:75, floorId:floor-water, entities: [
+			{ entityId:rock-default-water, chanceIn:400 },
+			{ entityId:rock-default-water2, chanceIn:400 },
+			
+			{ entityId:plant-lily-pad, type:Perlin, minValue:220, chanceIn:2, octNum:3, frq:90 },
+			{ entityId:plant-lily-pad2, type:Perlin, minValue:230, chanceIn:2, octNum:3, frq:90 },
+			{ entityId:plant-lily-pad-flower, type:Perlin, minValue:240, chanceIn:2, octNum:3, frq:90 },
+			
+		] },
+		
+		{ id:FrozenOcean, maxHeight:20, maxTemperature:25, floorId:floor-ice, entities: [
+			{ entityId:rock-gray, chanceIn:750 },
+		] },
+		
+		{ id:Mountain, minHeight:85, maxHeight:95, floorId:floor-rock, dungeonEntranceId:dungeon-entrance-rock, dungeonExitId:dungeon-exit-rock, entities: [
+			
+			{ entityId:mineral-carbon, type:Perlin, minValue:215, maxValue:225, chanceIn:3, octNum:4, frq:90 },
+			{ entityId:mineral-copper, type:Perlin, minValue:225, maxValue:235, chanceIn:3, octNum:4, frq:95 },
+			{ entityId:mineral-gold, type:Perlin, minValue:235, maxValue:245, chanceIn:3, octNum:4, frq:100 },
+			
+			{ entityId:mineral-amber, chanceIn:500 },
+			{ entityId:mineral-fluorite, chanceIn:600 },
+			{ entityId:mineral-quartz, chanceIn:700 },
+			{ entityId:mineral-diamond, chanceIn:800 },
+		] },
+		
+		{ id:MountainPeak, minHeight: 95, floorId:floor-snow, entities: [
+			{ entityId:mineral-amber, chanceIn:300 },
+			{ entityId:mineral-fluorite, chanceIn:400 },
+			{ entityId:mineral-quartz, chanceIn:500 },
+			{ entityId:mineral-diamond, chanceIn:600 },
+		] },
+		
+		{ id:RainForest, minRainfall:75, minTemperature:50,  floorId:floor-grass, dungeonEntranceId:dungeon-entrance-wood, dungeonExitId:dungeon-exit-wood, entities: [
+			{ entityId:tree-big-default3, type:Perlin, minValue:200, chanceIn:2, octNum:4, frq:64 },
+			{ entityId:tree-big-default3, chanceIn:100 },
+			
+			{ entityId:tree-default3, type:Perlin, minValue:225, chanceIn:5, octNum:4, frq:64 },
+			{ entityId:tree-default3, chanceIn:100 },
+			
+			{ entityId:plant-bush-default3, chanceIn:200 },
+			
+			{ entityId:rock-gray-mold, chanceIn:500 },
+			{ entityId:rock-gray-mold2, chanceIn:500 },
+			{ entityId:rock-default-mold, chanceIn:500 },
+			{ entityId:rock-default-mold2, chanceIn:500 },
+		] },
+		
+		{ id:Forest, minRainfall:50, floorId:floor-grass, dungeonEntranceId:dungeon-entrance-wood, dungeonExitId:dungeon-exit-wood, entities: [
+		
+			{ entityId:tree-default, type:Perlin, minValue:215, chanceIn:3, octNum:4, frq:64 },
+			{ entityId:tree-default3, chanceIn:150 },
+			
+			{ entityId:tree-big-default, type:Perlin, minValue:215, chanceIn:3, octNum:4, frq:64 },
+			{ entityId:tree-big-default3, chanceIn:150 },
+			
+			{ entityId:tree-pine3, chanceIn:150 },
+			{ entityId:tree-big-pine3, chanceIn:150 },
+			
+			{ entityId:plant-bush-default, chanceIn:300 },
+			{ entityId:plant-bush-default3, chanceIn:450 },
+			
+			{ entityId:rock-gray, chanceIn:500 },
+			{ entityId:rock-gray2, chanceIn:500 },
+		]  },
+		
+		{ id:Woods, minRainfall:25, floorId:floor-dirt, dungeonEntranceId:dungeon-entrance-wood, dungeonExitId:dungeon-exit-wood, entities: [
+		
+			{ entityId:tree-pine, type:Perlin, minValue:225, chanceIn:3, octNum:4, frq:65 },
+			{ entityId:tree-big-pine, type:Perlin, minValue:225, chanceIn:3, octNum:4, frq:65 },
+				
+			{ entityId:tree-default, chanceIn:150 },
+			{ entityId:tree-default2, chanceIn:200 },
+			
+			{ entityId:tree-big-default, chanceIn:150 },
+			{ entityId:tree-big-default2, chanceIn:200 },
+			
+			{ entityId:plant-bush-default, chanceIn:400 },
+			{ entityId:plant-bush-default2, chanceIn:550 },
+			
+			{ entityId:rock-default, chanceIn:500 },
+			{ entityId:rock-default2, chanceIn:500 },
+			
+			{ entityId:tree-dry, chanceIn:500 },
+			{ entityId:tree-big-dry, chanceIn:500 },
+		]  },
+		
+		{ id:Polar, maxTemperature:25, floorId:floor-snow, entities: [
+			{ entityId:rock-gray, chanceIn:500 },
+			{ entityId:rock-gray2, chanceIn:500 },
+		]  },
+		
+		{ id:Desert, minTemperature:50, floorId:floor-sand, dungeonEntranceId:dungeon-entrance-marble, dungeonExitId:dungeon-exit-marble, entities: [
+			{ entityId:plant-cactus, chanceIn:500 },
+			{ entityId:plant-cactus2, chanceIn:500 },
+			{ entityId:plant-bush-default2, chanceIn:750 },
+		]  },
+		
+		{ id:Tundra, floorId:floor-dirt, dungeonEntranceId:dungeon-entrance-marble, dungeonExitId:dungeon-exit-marble, entities: [
+		
+			{ entityId:tree-pine2, type:Perlin, minValue:235, chanceIn:3, octNum:4, frq:80 },
+			{ entityId:tree-big-pine2, type:Perlin, minValue:235, chanceIn:3, octNum:4, frq:80 },
+		
+			{ entityId:tree-dry, chanceIn:500 },
+			{ entityId:tree-big-dry, chanceIn:500 },
+			{ entityId:plant-bush-default2, chanceIn:750 },
+		]  },
+		
+	]	
+}

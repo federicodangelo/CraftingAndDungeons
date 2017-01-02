@@ -1,0 +1,301 @@
+{
+	floors:  [
+		{ id:floor-white, image:floor-white },
+		{ id:floor-dirt, image:floor-dirt-1, imageVariations:[floor-dirt-2] },
+		{ id:floor-grass, image:floor-grass-1, imageVariations:[floor-grass-2] },
+		{ id:floor-ice, image:floor-ice-1, imageVariations:[floor-ice-2] },
+		{ id:floor-snow, image:floor-snow-1, imageVariations:[floor-snow-2] },
+		{ id:floor-rock, image:floor-rock-1, imageVariations:[floor-rock-2], solid: true },
+		{ id:floor-sand, image:floor-sand-1, imageVariations:[floor-sand-2] },
+		{ id:floor-wood, image:floor-wood-1, imageVariations:[floor-wood-2] },
+		
+		{ id:floor-dungeon-dirt, image:floor-dungeon-dirt-1 },
+		{ id:floor-dungeon-rock, image:floor-dungeon-rock-1 },
+		{ id:floor-dungeon-rock-empty, image:floor-dungeon-rock-empty },
+		
+		{ id:floor-water, image:floor-water-1, imageVariations:[floor-water-2], solid:true
+ 			transitions: [
+				{ toFloorId:floor-grass, imagePrefix:floor-water-to-grass }
+			] 
+		}
+	],
+	
+	entities: [
+	
+		{ id:wall-dungeon-rock-bottom-left, image:wall-dungeon-rock-bottom-left-down, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-bottom-left-up, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-bottom, image:wall-dungeon-rock-bottom-down, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-bottom-up, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-bottom-right, image:wall-dungeon-rock-bottom-right-down, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-bottom-right-up, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-left, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-left, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-right, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-right, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-top-left, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-top-left, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-top-right, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-top-right, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:wall-dungeon-rock-top, image:wall-dungeon-rock-top-down, tag:wall,
+			extraTiles: [
+				{ image:wall-dungeon-rock-top-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		
+		{ id:house1-bottom-left, image:house-wall-marble-bottom-left, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-left, offsetY:-1, overlay:true },
+				{ image:house-wall-marble-left, offsetY:-2, overlay:true },
+				{ image:house-roof-wood-bottom-left, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-bottom, image:house-wall-marble-bottom, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-middle, offsetY:-1, overlay:true },
+				{ image:house-wall-marble-middle, offsetY:-2, overlay:true },
+				{ image:house-roof-wood-bottom, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-bottom-door, image:house-wall-marble-bottom, tag:house-entrance, solid:false,
+			extraTiles: [
+				{ image:house-door-wood, overlay:true },
+				{ image:house-wall-marble-middle, offsetY:-1, overlay:true },
+				{ image:house-wall-marble-middle, offsetY:-2, overlay:true },
+				{ image:house-roof-wood-bottom, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-bottom-right, image:house-wall-marble-bottom-right, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-right, offsetY:-1, overlay:true },
+				{ image:house-wall-marble-right, offsetY:-2, overlay:true },
+				{ image:house-roof-wood-bottom-right, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-left, image:house-wall-marble-bottom-left, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-left, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-left, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-middle, image:house-floor-wood, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-middle, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-right, image:house-wall-marble-bottom-right, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-right, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-right, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-top-left, image:house-wall-marble-bottom-left, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-left, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-top-left, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-top, image:house-wall-marble-bottom, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-middle, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-top, offsetY:-2, overlay:true }
+			]
+		},
+		{ id:house1-top-right, image:house-wall-marble-bottom-right, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-right, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-top-right, offsetY:-2, overlay:true }
+			]
+		},
+		
+		
+		
+		
+
+		{ id:house2-bottom-left, image:house-wall-marble-bottom-left, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-left, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-bottom-left, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-bottom, image:house-wall-marble-bottom, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-middle, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-bottom, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-bottom-door, image:house-wall-marble-bottom, tag:house-entrance, solid:false,
+			extraTiles: [
+				{ image:house-door-wood, overlay:true },
+				{ image:house-wall-marble-middle, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-bottom, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-bottom-right, image:house-wall-marble-bottom-right, tag:house,
+			extraTiles: [
+				{ image:house-wall-marble-right, offsetY:-1, overlay:true },
+				{ image:house-roof-wood-bottom-right, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-left, image:house-wall-marble-bottom-left, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-left, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-middle, image:house-floor-wood, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-middle, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-right, image:house-wall-marble-bottom-right, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-right, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-top-left, image:house-wall-marble-bottom-left, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-top-left, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-top, image:house-wall-marble-bottom, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-top, offsetY:-1, overlay:true }
+			]
+		},
+		{ id:house2-top-right, image:house-wall-marble-bottom-right, tag:house,
+			extraTiles: [
+				{ image:house-roof-wood-top-right, offsetY:-1, overlay:true }
+			]
+		},		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		{ id:dungeon-entrance-wood, image:stairs-down-wood, tag:dungeon-entrance, solid:false },
+		{ id:dungeon-entrance-marble, image:stairs-down-marble, tag:dungeon-entrance, solid:false },
+		{ id:dungeon-entrance-rock, image:stairs-down-rock, tag:dungeon-entrance, solid:false },
+	
+		{ id:dungeon-exit-wood, image:stairs-up-wood, tag:dungeon-exit, solid:false },
+		{ id:dungeon-exit-marble, image:stairs-up-marble, tag:dungeon-exit, solid:false },
+		{ id:dungeon-exit-rock, image:stairs-up-rock, tag:dungeon-exit, solid:false },
+	
+		{ id:plant-bush-blackberries, image:plant-bush-blackberries, tag:plant },
+		{ id:plant-bush-blueberries, image:plant-bush-blueberries, tag:plant },
+		{ id:plant-bush-default, image:plant-bush-default, tag:plant },
+		{ id:plant-bush-default2, image:plant-bush-default2, tag:plant },
+		{ id:plant-bush-default3, image:plant-bush-default3, tag:plant },
+		
+		{ id:plant-cactus, image:plant-cactus, tag:plant, solidDiagonal:false },
+		{ id:plant-cactus2, image:plant-cactus2, tag:plant, solidDiagonal:false },
+		
+		{ id:plant-lily-pad, image:plant-lily-pad, tag:plant },
+		{ id:plant-lily-pad2, image:plant-lily-pad2, tag:plant },
+		{ id:plant-lily-pad-flower, image:plant-lily-pad-flower, tag:plant },
+				
+		{ id:rock-default, image:rock-default, tag:rock, solidDiagonal:false },
+		{ id:rock-default2, image:rock-default2, tag:rock, solidDiagonal:false },
+		
+		{ id:rock-gray, image:rock-gray, tag:rock, solidDiagonal:false },
+		{ id:rock-gray2, image:rock-gray2, tag:rock, solidDiagonal:false },
+		
+		{ id:rock-default-mold, image:rock-default-mold, tag:rock, solidDiagonal:false },
+		{ id:rock-default-mold2, image:rock-default-mold2, tag:rock, solidDiagonal:false },
+		
+		{ id:rock-gray-mold, image:rock-gray-mold, tag:rock, solidDiagonal:false },
+		{ id:rock-gray-mold2, image:rock-gray-mold2, tag:rock, solidDiagonal:false },
+		
+		{ id:rock-default-water, image:rock-default-water, tag:rock },
+		{ id:rock-default-water2, image:rock-default-water2, tag:rock },
+		
+		{ id:rock-gray-water, image:rock-gray-water, tag:rock },
+		{ id:rock-gray-water2, image:rock-gray-water2, tag:rock },
+		
+		{ id:mineral-carbon, image:mineral-carbon, tag:mineral },
+		{ id:mineral-copper, image:mineral-copper, tag:mineral },
+		{ id:mineral-gold, image:mineral-gold, tag:mineral },
+		{ id:mineral-amber, image:mineral-amber, tag:mineral },
+		{ id:mineral-fluorite, image:mineral-fluorite, tag:mineral },
+		{ id:mineral-quartz, image:mineral-quartz, tag:mineral },
+		{ id:mineral-diamond, image:mineral-diamond, tag:mineral },
+		
+		{ id:tree-default, image:tree-default, tag:tree, solidDiagonal:false },
+		{ id:tree-default2, image:tree-default2, tag:tree, solidDiagonal:false },
+		{ id:tree-default3, image:tree-default3, tag:tree, solidDiagonal:false },
+		{ id:tree-oranges, image:tree-oranges, tag:tree, solidDiagonal:false },
+		
+		{ id:tree-big-default, image:tree-big-default-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-default-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		{ id:tree-big-default2, image:tree-big-default2-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-default2-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		{ id:tree-big-default3, image:tree-big-default3-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-default3-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		{ id:tree-dry, image:tree-dry, tag:tree, solidDiagonal:false },
+		
+		{ id:tree-big-dry, image:tree-big-dry-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-dry-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		{ id:tree-pine, image:tree-pine, tag:tree, solidDiagonal:false },
+		{ id:tree-pine2, image:tree-pine2, tag:tree, solidDiagonal:false },
+		{ id:tree-pine3, image:tree-pine3, tag:tree, solidDiagonal:false },
+		
+		{ id:tree-big-pine, image:tree-big-pine-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-pine-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		{ id:tree-big-pine2, image:tree-big-pine2-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-pine2-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+		{ id:tree-big-pine3, image:tree-big-pine3-down, tag:tree, solidDiagonal:false,
+			extraTiles: [
+				{ image:tree-big-pine3-up, offsetY:-1, overlay:true }
+			]
+		},
+		
+	]	
+}

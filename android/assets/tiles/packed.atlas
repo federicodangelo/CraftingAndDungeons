@@ -1,0 +1,958 @@
+
+packed.png
+size: 1024,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+empty
+  rotate: false
+  xy: 1, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-dirt-1
+  rotate: false
+  xy: 19, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-dirt-2
+  rotate: false
+  xy: 37, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-dungeon-dirt-1
+  rotate: false
+  xy: 55, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-dungeon-rock-1
+  rotate: false
+  xy: 73, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-dungeon-rock-empty
+  rotate: false
+  xy: 91, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-grass-1
+  rotate: false
+  xy: 109, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-grass-2
+  rotate: false
+  xy: 127, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-ice-1
+  rotate: false
+  xy: 145, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-ice-2
+  rotate: false
+  xy: 163, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-rock-1
+  rotate: false
+  xy: 181, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-rock-2
+  rotate: false
+  xy: 199, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-sand-1
+  rotate: false
+  xy: 217, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-sand-2
+  rotate: false
+  xy: 235, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-snow-1
+  rotate: false
+  xy: 253, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-snow-2
+  rotate: false
+  xy: 271, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-1
+  rotate: false
+  xy: 289, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-2
+  rotate: false
+  xy: 307, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-bottom
+  rotate: false
+  xy: 325, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-bottom-left
+  rotate: false
+  xy: 343, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-bottom-left-corner
+  rotate: false
+  xy: 361, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-bottom-right
+  rotate: false
+  xy: 379, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-bottom-right-corner
+  rotate: false
+  xy: 397, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-left
+  rotate: false
+  xy: 415, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-right
+  rotate: false
+  xy: 433, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-top
+  rotate: false
+  xy: 451, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-top-left
+  rotate: false
+  xy: 469, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-top-left-corner
+  rotate: false
+  xy: 487, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-top-right
+  rotate: false
+  xy: 505, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-water-to-grass-top-right-corner
+  rotate: false
+  xy: 523, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-white
+  rotate: false
+  xy: 541, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-wood-1
+  rotate: false
+  xy: 559, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+floor-wood-2
+  rotate: false
+  xy: 577, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-door-marble
+  rotate: false
+  xy: 595, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-door-wood
+  rotate: false
+  xy: 613, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-floor-wood
+  rotate: false
+  xy: 631, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-bottom
+  rotate: false
+  xy: 649, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-bottom-left
+  rotate: false
+  xy: 667, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-bottom-right
+  rotate: false
+  xy: 685, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-left
+  rotate: false
+  xy: 703, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-middle
+  rotate: false
+  xy: 721, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-right
+  rotate: false
+  xy: 739, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-top
+  rotate: false
+  xy: 757, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-top-left
+  rotate: false
+  xy: 775, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-roof-wood-top-right
+  rotate: false
+  xy: 793, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-bottom
+  rotate: false
+  xy: 811, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-bottom-left
+  rotate: false
+  xy: 829, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-bottom-right
+  rotate: false
+  xy: 847, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-left
+  rotate: false
+  xy: 865, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-middle
+  rotate: false
+  xy: 883, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-right
+  rotate: false
+  xy: 901, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-top
+  rotate: false
+  xy: 919, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-top-left
+  rotate: false
+  xy: 937, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+house-wall-marble-top-right
+  rotate: false
+  xy: 955, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-amber
+  rotate: false
+  xy: 973, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-carbon
+  rotate: false
+  xy: 991, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-copper
+  rotate: false
+  xy: 1, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-diamond
+  rotate: false
+  xy: 19, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-fluorite
+  rotate: false
+  xy: 37, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-gold
+  rotate: false
+  xy: 55, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mineral-quartz
+  rotate: false
+  xy: 73, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-bush-blackberries
+  rotate: false
+  xy: 91, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-bush-blueberries
+  rotate: false
+  xy: 109, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-bush-default
+  rotate: false
+  xy: 127, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-bush-default2
+  rotate: false
+  xy: 145, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-bush-default3
+  rotate: false
+  xy: 163, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-bush-oranges
+  rotate: false
+  xy: 181, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-cactus
+  rotate: false
+  xy: 199, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-cactus2
+  rotate: false
+  xy: 217, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-lily-pad
+  rotate: false
+  xy: 235, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-lily-pad-flower
+  rotate: false
+  xy: 271, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plant-lily-pad2
+  rotate: false
+  xy: 253, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 289, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-default
+  rotate: false
+  xy: 307, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-default-mold
+  rotate: false
+  xy: 343, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-default-mold2
+  rotate: false
+  xy: 361, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-default-water
+  rotate: false
+  xy: 379, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-default-water2
+  rotate: false
+  xy: 397, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-default2
+  rotate: false
+  xy: 325, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-gray
+  rotate: false
+  xy: 415, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-gray-mold
+  rotate: false
+  xy: 451, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-gray-mold2
+  rotate: false
+  xy: 469, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-gray-water
+  rotate: false
+  xy: 487, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-gray-water2
+  rotate: false
+  xy: 505, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock-gray2
+  rotate: false
+  xy: 433, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-marble
+  rotate: false
+  xy: 523, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-marble2
+  rotate: false
+  xy: 541, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-rock
+  rotate: false
+  xy: 559, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-rock2
+  rotate: false
+  xy: 577, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-rock3
+  rotate: false
+  xy: 595, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-rock4
+  rotate: false
+  xy: 613, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-wood
+  rotate: false
+  xy: 631, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-down-wood2
+  rotate: false
+  xy: 649, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-marble
+  rotate: false
+  xy: 667, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-marble2
+  rotate: false
+  xy: 685, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-rock
+  rotate: false
+  xy: 703, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-rock2
+  rotate: false
+  xy: 721, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-rock3
+  rotate: false
+  xy: 739, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-rock4
+  rotate: false
+  xy: 757, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-wood
+  rotate: false
+  xy: 775, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stairs-up-wood2
+  rotate: false
+  xy: 793, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tile-379
+  rotate: false
+  xy: 811, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-default-down
+  rotate: false
+  xy: 829, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-default-up
+  rotate: false
+  xy: 847, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-default2-down
+  rotate: false
+  xy: 865, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-default2-up
+  rotate: false
+  xy: 883, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-default3-down
+  rotate: false
+  xy: 901, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-default3-up
+  rotate: false
+  xy: 919, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-dry-down
+  rotate: false
+  xy: 937, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-dry-up
+  rotate: false
+  xy: 955, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-pine-down
+  rotate: false
+  xy: 973, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-pine-up
+  rotate: false
+  xy: 991, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-pine2-down
+  rotate: false
+  xy: 1, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-pine2-up
+  rotate: false
+  xy: 19, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-pine3-down
+  rotate: false
+  xy: 37, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-big-pine3-up
+  rotate: false
+  xy: 55, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-default
+  rotate: false
+  xy: 73, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-default2
+  rotate: false
+  xy: 91, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-default3
+  rotate: false
+  xy: 109, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-dry
+  rotate: false
+  xy: 127, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-oranges
+  rotate: false
+  xy: 145, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-pine
+  rotate: false
+  xy: 163, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-pine2
+  rotate: false
+  xy: 181, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tree-pine3
+  rotate: false
+  xy: 199, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-bottom-down
+  rotate: false
+  xy: 217, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-top-down
+  rotate: false
+  xy: 217, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-bottom-left-down
+  rotate: false
+  xy: 235, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-bottom-left-up
+  rotate: false
+  xy: 253, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-bottom-right-down
+  rotate: false
+  xy: 271, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-bottom-right-up
+  rotate: false
+  xy: 289, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-bottom-up
+  rotate: false
+  xy: 307, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-top-up
+  rotate: false
+  xy: 307, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-left
+  rotate: false
+  xy: 325, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-right
+  rotate: false
+  xy: 325, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-top-left
+  rotate: false
+  xy: 343, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wall-dungeon-rock-top-right
+  rotate: false
+  xy: 361, 37
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
