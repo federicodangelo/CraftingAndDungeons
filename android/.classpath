@@ -3,12 +3,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry exported="true" kind="src" path="/my-gdx-game-core"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.6.5/47d6744474ff276a8f92e92d22d7c956f5c832f0/gdx-backend-android-1.6.5.jar" sourcepath="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.6.5/a3b12b5304c7d01e54328688508f564ef502d503/gdx-backend-android-1.6.5-sources.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-ai/1.5.0/5f694a1d54a6e15884ac50b83b7927df771d69b0/gdx-ai-1.5.0.jar" sourcepath="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-ai/1.5.0/1ecf751f2ed8e80f693a018219f3aa5e74b10da4/gdx-ai-1.5.0-sources.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.6.5/b56ebcc34d39c4bb0a828c5ed04f46a04314bb4d/gdx-1.6.5.jar" sourcepath="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.6.5/1aafe92f2aca6a95f6b0590336411cc52b814445/gdx-1.6.5-sources.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="src" path="/my-gdx-game-core"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.5/293bbe05bfb5ca812c849e4d1f494f56509d5a6e/gdx-backend-android-1.9.5.jar" sourcepath="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.5/3c27357464b0484abbf1bf3abb8d4b6fcfc0f452/gdx-backend-android-1.9.5-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-ai/1.8.0/ec30677d8ab1a8b8aa4b853c5f4e4b1361f50bf5/gdx-ai-1.8.0.jar" sourcepath="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-ai/1.8.0/154b2fbb50894a944607cd74f7dba1073d31a967/gdx-ai-1.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/dc65bb2f51828c58b1b2b3ac585357204d54ee5f/gdx-1.9.5.jar" sourcepath="C:/Users/Federico/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/df0e6a52ed42009b20ab64cc81e57c3ae24d9109/gdx-1.9.5-sources.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

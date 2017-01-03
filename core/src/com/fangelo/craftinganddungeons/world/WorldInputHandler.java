@@ -396,6 +396,12 @@ public class WorldInputHandler implements GestureListener, InputProcessor {
 		
 		return false;
 	}
+	
+	@Override
+	public void pinchStop() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
 	public boolean keyDown(int keycode) {

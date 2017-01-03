@@ -85,7 +85,7 @@ public class DesktopPlatformAdapter extends PlatformAdapter {
 				}
 			}
 			catch(Exception ex) {
-				System.out.println("Exceptio while trying to retrieve 'My Pictures' folder location: " + ex.getMessage());
+				System.out.println("Exception while trying to retrieve 'My Pictures' folder location: " + ex.getMessage());
 			}
 			
 			if (saveGameFolder == null)
