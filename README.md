@@ -3,6 +3,11 @@ Simple and non-violent exploration and crafting game.
 
 Work In Progress
 
+- Multithreaded proecedural terrain generation using chunks
+- Changes made to the terrain are persisted
+- Multiplatform (using libgdx)
+- Configurable entities ![catalog.txt](/android/assets/data/catalog.txt) and biomes ![biomes.txt](/android/assets/data/biomes.txt)
+
 Trello backlog / ideas: https://trello.com/b/EkQY4ujS
 
 Screenshots:
